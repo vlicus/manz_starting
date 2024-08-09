@@ -1,6 +1,8 @@
 let nota = 7;
 console.log("He realizado mi examen. Mi resultado es el siguiente: ");
 
+var calificacion;
+
 switch (nota) {
 	case 10:
 		calificacion = "Sobresaliente";

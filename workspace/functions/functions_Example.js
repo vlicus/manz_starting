@@ -30,7 +30,9 @@ for(let i = 0; i <= 10; i++){
 
 //Use of function to avoid repetition
 function tableOfOne(){
-  for (let i = 0; i <= 10; i++) console.log("1 x", i, "=", i * 1);
+  for (let i = 0; i <= 10; i++) {
+    console.log("1 x", i, "=", i * 1);
+  }
 }
 
 let intento;

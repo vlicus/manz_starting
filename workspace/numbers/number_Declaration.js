@@ -13,10 +13,14 @@ console.log(legibleNumber); // 1000000
 const number1 = new Number(24);
 const decimal1 = new Number(15.8);
 const letter = new Number("A");
+const letter1 = "A";
 
 console.log(number1); // [Number: 24]
 console.log(decimal1); // [Number: 15.8]
-console.log(letter); // [Number: NaN]
+console.log(letter); // [Number: NaN] --> A is Not a Number
+console.log(letter1); // const is for constant variables, it doesnt care
+// about the type of the variable. It will print A but it has to bee declared
+// with "" or ''.
 
 // Big numbers
 

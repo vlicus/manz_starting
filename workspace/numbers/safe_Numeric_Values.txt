@@ -1,0 +1,16 @@
+
+Safe positive numeric values goes from 0 to MAX_SAFE_INTEGER
+Not that safe values goes from MAX_SAFE_INTEGER to MAX_VALUE
+Unsafe values goes from MAX_VALUE to Infinity
+
+Safe negative numeric values goes from 0 to MIN_SAFE_INTEGER
+Not that safe values goes from MIN_SAFE_INTEGER to MIN_VALUE
+Unsafe values goes from MIN_VALUE to -Infinity
+
+Number.MAX_VALUE	~ 2^1024	Valor más grande
+Number.MIN_VALUE	~ 5^×10-324	Valor más pequeño
+Number.MAX_SAFE_INTEGER 	(2^53)-1	Valor seguro más grande
+Number.MIN_SAFE_INTEGER 	-(2^53-1)	Valor seguro más pequeño
+Number.EPSILON 	2^-52	Número muy pequeño: ε
+
+Infinite values (Number.POSITIVE_INFINITE) and (Number.NEGATIVE.INFINITE)

@@ -20,9 +20,9 @@ console.log(letter); // [Number: NaN]
 
 // Big numbers
 
-const incorrectNumber = 123480231804028034083214;
-const bigNumber = 21304302409123409230940923490234n;
+const losingPresitionNumber = 123480231804028034083214;
+const bigNumber = 21304302409123409230940923490234n; //BigInt variable type adding n at the end of the number.
 
 // Adding n at the end of the number store the extact value correctly.
-console.log(incorrectNumber); // 1.2348023180402804e+26
+console.log(losingPresitionNumber); // 1.2348023180402804e+26
 console.log(bigNumber); // 21304302409123409230940923490234n

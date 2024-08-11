@@ -1,3 +1,5 @@
+                  ** SAFE NUMERIC VALUES **
+
 
 Safe positive numeric values goes from 0 to MAX_SAFE_INTEGER
 Not that safe values goes from MAX_SAFE_INTEGER to MAX_VALUE

@@ -10,8 +10,4 @@ let number = 0;
 Number.isNaN(number); // true or false
 console.log(Number.isNaN(number)); // true
 
-let number2 = 523.75;
-number2.toPrecision(1);      // "5e+2"
-console.log(number2.toPrecision(1)); // "5e+2"
-
 console.log(typeof number2); // number
